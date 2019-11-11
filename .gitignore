@@ -1,7 +1,4 @@
 scratch
-#PyCharm
-.idea
-.pytest_cache
 
 MANIFEST
 
@@ -26,11 +23,13 @@ develop-eggs
 .installed.cfg
 lib64
 __pycache__
+MANIFEST
 
 # Installer logs
 pip-log.txt
 
 # Unit test / coverage reports
+.pytest_cache
 .coverage
 .tox
 nosetests.xml
@@ -42,3 +41,8 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Other IDEs
+PyCharm
+.idea
+.vscode
